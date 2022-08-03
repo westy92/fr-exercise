@@ -146,6 +146,7 @@ There is no request or response body.
 ## Suggested Improvements
 - Add additional unit tests to test more complex scenarios and increase code coverage.
 - Set up a continuous integration environment like GitHub Actions.
+- Add input validation. Ensure points are integers, fields aren't missing, etc.
 - Use an actual database and cache instead of application memory. Possible options are PostgreSQL and Redis, respectively.
 - Add logging throughout the application. ([winston](https://www.npmjs.com/package/winston) is a popular choice.)
 - Add user authentication and keep track of points on a per-user basis.
