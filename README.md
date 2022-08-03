@@ -2,7 +2,7 @@
 
 ## Installation and Configuration
 1. Download and install [Node.js](https://nodejs.org/en/) (LTS recommended).
-1. Clone this repository locally.
+1. Clone this repository locally. (`git clone git@github.com:westy92/fr-exercise.git`)
 1. Navigate to this repository and run `npm i` to install dependencies.
 1. Run `npm run build` to transpile the TypeScript source code into JavaScript.
 1. Run `node dist/index.js` to start the web service. The default `port` is `3000`, but that can be changed by instead running `PORT=8080 node dist/index.js` with a port of your choosing.
@@ -117,7 +117,7 @@ Example Response Body:
     "DANNON": 1000,
     "UNILEVER": 0,
     "MILLER COORS": 5300
-]
+}
 ```
 
 **Possible Responses:**
@@ -145,6 +145,7 @@ There is no request or response body.
 
 ## Suggested Improvements
 - Add additional unit tests to test more complex scenarios and increase code coverage.
+- Set up a continuous integration environment like GitHub Actions.
 - Use an actual database and cache instead of application memory. Possible options are PostgreSQL and Redis, respectively.
 - Add logging throughout the application. ([winston](https://www.npmjs.com/package/winston) is a popular choice.)
 - Add user authentication and keep track of points on a per-user basis.

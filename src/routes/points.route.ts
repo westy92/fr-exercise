@@ -5,8 +5,6 @@ import { TransactionRecord } from '../types';
 
 export const router = express.Router();
 
-// TODO authenticated router (base)
-
 const controller = new PointsController();
 
 router.post('/transaction', (req, res) => {
