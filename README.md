@@ -150,4 +150,5 @@ There is no request or response body.
 - Use an actual database and cache instead of application memory. Possible options are PostgreSQL and Redis, respectively.
 - Add logging throughout the application. ([winston](https://www.npmjs.com/package/winston) is a popular choice.)
 - Add user authentication and keep track of points on a per-user basis.
+- Add rate limiting.
 - Containerize this app with a Dockerfile, using `node:18-alpine`.
